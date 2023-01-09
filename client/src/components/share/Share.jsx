@@ -22,6 +22,7 @@ const Share = () => {
       console.log(err)
     }
   };
+  
   const { currentUser } = useContext(AuthContext);
 
   const queryClient = useQueryClient();
